@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors Example</title>
+    <style>
+         h1{
+            color: blue;
+        }
+        
+        [class~="specific"] {
+            background-color: yellow;
+        }
+        
+        [id^="mdh"] {
+            font-weight: bold;
+        }
+        
+        [data-info$="end"] {
+            text-decoration: underline;
+        }
+        
+        [href*="ipl"] {
+            color: red;
+        }
+        
+        [lang|="inter"] {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="specific">This is value containing a specific word.</p>
+    <p id="mdh">This is starting with specified  value.</p>
+    <span data-info="something-end">This span is ending.</span>
+    <a href="https://www.iplt20.com">IPL</a>
+    <div lang="inter-national">This have value follows by hyphen.</div>
+</body>
+</html>

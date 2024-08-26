@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background-color: green;
+    height: 200px;
+}
+.flex-container2{
+    display: flex;
+    background-color: green;
+    height: 200px;
+}
+.flex-container div{
+    background-color: red;
+    width:100px ;
+    height:75px ;
+    margin: 10px;
+    text-align: center;
+    font-size:25px ;
+}
+.flex-container2 div{
+    background-color: red;
+    width:100px ;
+    height:75px ;
+    margin: 10px;
+    text-align: center;
+    font-size:25px ;
+}

@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-size: larger;
+    font-weight: bold;
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+}
+.flex-container2{
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+}
+.flex-container3{
+    display: flex;
+    background-color: green;
+    flex-direction: column-reverse;
+}
+.flex-container4{
+    display: flex;
+    background-color: green;
+    flex-direction: row-reverse;
+}
+
+
+.flex-container5{
+    display: flex;
+    background-color: green;
+   flex-wrap: wrap;
+}
+.flex-container6{
+    display: flex;
+    background-color: green;
+   flex-wrap: nowrap;
+}
+.flex-container7{
+    display: flex;
+    background-color: green;
+   flex-wrap: wrap-reverse;
+}
+.flex-container8{
+    display: flex;
+    background-color: green;
+   flex-flow: row wrap;
+}
+.flex-container9{
+    display: flex;
+    background-color: green;
+    justify-content: center;
+}
+.flex-container10{
+    display: flex;
+    background-color: green;
+    justify-content: flex-start;
+}
+.flex-container11{
+    display: flex;
+    background-color: green;
+    justify-content: flex-end;
+}
+.flex-container12{
+    display: flex;
+    background-color: green;
+    justify-content:space-around;
+}
+.flex-container13{
+    display: flex;
+    background-color: green;
+    justify-content:space-between;
+}
+
+.flex-container14{
+    display: flex;
+    background-color: green;
+    align-items: center;
+}
+.flex-container15{
+    display: flex;
+    background-color: green;
+    align-items:flex-start;
+}
+.flex-container16{
+    display: flex;
+    background-color: green;
+    height: 200px;
+    align-items:stretch;
+}
+
+.flex-container17{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content: space-between;
+}
+.flex-container18{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content: space-around;
+}
+.flex-container19{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content: stretch;
+}
+.flex-container20{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content: center;
+}
+.flex-container21{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content: flex-start;
+}
+.flex-container22{
+    display: flex;
+    background-color: green;
+    height: 300px;
+    align-content:flex-end;
+}
+
+
+
+.flex-container div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container2 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container3 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container4 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container5 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container6 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container6 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container7 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container8 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container9 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container10 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container11 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container12 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container13 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container14 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container15 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container16 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container17 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container18 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container19 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container20 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container21 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+.flex-container22 div{
+    background-color: brown;
+    width: 100px;
+    /*height: 75px;*/
+    margin:10px;
+    text-align:center;
+    font: size 25px;
+}
+

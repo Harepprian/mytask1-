@@ -1,0 +1,81 @@
+/**{
+    background-color: aqua;
+}
+       /* div ~p{
+            background-color: gold;
+        }
+a:hover{
+   background-color:red;
+}
+a:active{
+    background-color: yellow;
+}
+p::first-line{
+   background-color:red;
+}
+h1::before{
+    content: url(images/image.jpeg);
+}
+::marker{
+    color: red;
+}
+::selection{
+    color: blue;
+    background-color: red;
+}
+a[target^="HTML"]{
+   color: blue;
+}
+button{
+    background-color: yellow;
+    color: blue;
+    border: none;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    color: yellow;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 50px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+img{
+    width: 50%;
+}
+html{
+font-size: 30px;
+}
+span{
+    font-size: 2rem;
+}
+.mdhare{
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: red;
+}
+.test{
+    color:blue !important;
+}
+#top{
+    color: green;
+}
+ol.top{
+    list-style-image: url(images/icons8-star-10.png);
+}*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(odd){
+    background-color: red;
+}

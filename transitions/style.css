@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background-color:rgb(101, 42, 165);
+    width:100px;
+    height:100px;
+    margin:70px;
+    transition-property: width,height;
+    transition-duration: 1s,2s;
+}
+.box2{
+    background-color:rgb(101, 42, 165);
+    width:100px;
+    height:100px;
+    margin:70px;
+    transition: all 1s ease;
+    transition-delay: 2s;
+}
+.box3{
+    background-color:rgb(101, 42, 165);
+    width:100px;
+    height:100px;
+    margin:70px;
+    transition: all 1s linear;
+    transition-delay: 2s;
+}
+.box1:hover{
+    width: 500px;
+    height: 500px;
+}
+.box2:hover{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+.box3:hover{
+    width: 500px;
+    height: 500px;
+}

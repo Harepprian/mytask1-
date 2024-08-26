@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mydiv{
+    position: relative;
+    height: 300px;
+    background-color: #ffffff;
+}
+#mydiv div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: blue;
+    background-color: rgb(7,7, 224);
+    border: 1px solid;
+    opacity: 0.8;
+}
+#mybox{
+    position: absolute;
+    background-color: aqua !important;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    border: 1px solid red;
+    width: 400px;
+    position: relative;
+}
+/*.one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: relative;
+    top:20%;
+    right: 20%;
+}
+.one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    position: absolute;
+    left: 20%;
+}*/
+.one{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.two{
+    background-color:blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+/*.box1{
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    padding: 12px;
+    bottom: 0;
+}*/
+.box1{
+    position: sticky;
+    background-color: aqua;
+    width: 100%;
+    padding: 12px;
+    top: 0;
+}
